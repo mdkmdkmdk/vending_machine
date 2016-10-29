@@ -63,7 +63,6 @@ void Widget::on_pushButton_500_clicked()
 {
     count += 500;
     ui->lcdNumber->display(count);
-    if (count >= 300)
     chk_plus();
 }
 
